@@ -1,0 +1,41 @@
+ INFO [spring.application.name_IS_UNDEFINED,,,] INFO [spring.application.name_IS_UNDEFINED,,,] INFO [spring.application.name_IS_UNDEFINED,,,] INFO [spring.application.name_IS_UNDEFINED,,,] INFO [spring.application.name_IS_UNDEFINED,,,] INFO [spring.application.name_IS_UNDEFINED,,,]2018-12-08 18:18:26.276  INFO [springAppName_IS_UNDEFINED,] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a997f5f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 18:18:27.128  INFO [springAppName_IS_UNDEFINED,] No active profile set, falling back to default profiles: default
+2018-12-08 18:18:29.637  INFO [springAppName_IS_UNDEFINED,] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-08 18:18:29.908  INFO [springAppName_IS_UNDEFINED,] Finished Spring Data repository scanning in 258ms. Found 2 repository interfaces.
+2018-12-08 18:18:30.859  INFO [springAppName_IS_UNDEFINED,] BeanFactory id=18ef4d85-b477-326e-93b9-8c6d3cad5366
+2018-12-08 18:18:31.771  INFO [springAppName_IS_UNDEFINED,] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d7df2f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 18:18:31.882  INFO [springAppName_IS_UNDEFINED,] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cfe4026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 18:18:31.901  INFO [springAppName_IS_UNDEFINED,] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a997f5f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 18:18:31.917  INFO [springAppName_IS_UNDEFINED,] Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$NettyConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$NettyConfiguration$$EnhancerBySpringCGLIB$$8c141d77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 18:18:33.311  INFO [springAppName_IS_UNDEFINED,] Tomcat initialized with port(s): 8080 (http)
+2018-12-08 18:18:33.338  INFO [springAppName_IS_UNDEFINED,] Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-08 18:18:33.358  INFO [springAppName_IS_UNDEFINED,] Starting service [Tomcat]
+2018-12-08 18:18:33.358  INFO [springAppName_IS_UNDEFINED,] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-08 18:18:33.382  INFO [springAppName_IS_UNDEFINED,] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_162\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk1.8.0_162\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\Saurabh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Saurabh\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\Saurabh\AppData\Local\atom\bin;.]
+2018-12-08 18:18:33.580  INFO [springAppName_IS_UNDEFINED,] Initializing Spring embedded WebApplicationContext
+2018-12-08 18:18:33.581  INFO [springAppName_IS_UNDEFINED,] Root WebApplicationContext: initialization completed in 6434 ms
+2018-12-08 18:18:36.292  INFO [springAppName_IS_UNDEFINED,] HikariPool-1 - Starting...
+2018-12-08 18:18:36.601  INFO [springAppName_IS_UNDEFINED,] HikariPool-1 - Start completed.
+2018-12-08 18:18:36.709  INFO [springAppName_IS_UNDEFINED,] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-08 18:18:36.876  INFO [springAppName_IS_UNDEFINED,] HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-08 18:18:36.881  INFO [springAppName_IS_UNDEFINED,] HHH000206: hibernate.properties not found
+2018-12-08 18:18:37.254  INFO [springAppName_IS_UNDEFINED,] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-08 18:18:37.487  INFO [springAppName_IS_UNDEFINED,] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-08 18:18:37.608  INFO [springAppName_IS_UNDEFINED,] Envers integration enabled? : true
+2018-12-08 18:18:41.270  INFO [springAppName_IS_UNDEFINED,] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31178e93'
+2018-12-08 18:18:41.279  INFO [springAppName_IS_UNDEFINED,] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 18:18:43.227  WARN [springAppName_IS_UNDEFINED,] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-08 18:18:43.779  INFO [springAppName_IS_UNDEFINED,] Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-12-08 18:18:44.679  INFO [springAppName_IS_UNDEFINED,] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-08 18:18:45.558  INFO [springAppName_IS_UNDEFINED,] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-08 18:18:46.057  WARN [springAppName_IS_UNDEFINED,] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-12-08 18:18:48.856  INFO [springAppName_IS_UNDEFINED,] Context refreshed
+2018-12-08 18:18:48.968  INFO [springAppName_IS_UNDEFINED,] Found 1 custom documentation plugin(s)
+2018-12-08 18:18:49.163  INFO [springAppName_IS_UNDEFINED,] Scanning for api listing references
+2018-12-08 18:18:49.659  INFO [springAppName_IS_UNDEFINED,] Starting ProtocolHandler ["http-nio-8080"]
+2018-12-08 18:18:49.681  INFO [springAppName_IS_UNDEFINED,] Using a shared selector for servlet write/read
+2018-12-08 18:18:49.719  INFO [springAppName_IS_UNDEFINED,] Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-08 18:18:49.723  INFO [springAppName_IS_UNDEFINED,] Started RegistrationApplication in 25.808 seconds (JVM running for 48.459)
+2018-12-08 18:18:49.755  INFO [springAppName_IS_UNDEFINED,] Handling home
